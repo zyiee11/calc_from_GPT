@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/count-and-say/
+
 def countAndSay(n):
     if n == 1:
         return "1"
@@ -15,6 +17,7 @@ def countAndSay(n):
         i += 1
     
     return ''.join(result)
+
 
 
 print(countAndSay(5))
