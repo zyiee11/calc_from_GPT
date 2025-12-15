@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/house-robber/description/
+
 def rob(nums):
     if not nums:
         return 0
@@ -16,4 +18,5 @@ def rob(nums):
 
 if __name__ == "__main__":
     print(rob([1, 2, 3, 1]))
+
     print(rob([2, 7, 9, 3, 1]))
