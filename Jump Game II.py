@@ -1,3 +1,5 @@
+#https://leetcode.com/problems/jump-game-ii/description/
+
 def jump(nums):
     n = len(nums)
     if n <= 1:
@@ -18,5 +20,6 @@ def jump(nums):
                 break
 
     return jumps
+
 
 print(jump([1, 3, 5, 3, 2, 8, 3, 1, 4]))
